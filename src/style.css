@@ -1,0 +1,87 @@
+:root {
+
+  /* font-size: 16px;
+  line-height: 24px;
+  font-weight: 400; */
+
+  color: #0f0f0f;
+  background-color: #f6f6f6;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --scale-factor: 1.0;
+  --command-entry-height: 0;
+}
+
+/* .my-element {
+    background-color: var(--my-favorite-color);
+  } */
+
+
+/* .col {
+  margin: 0;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  overflow: scroll
+} */
+/* 
+.row {
+  display: flex;
+  justify-content: left;
+ 
+} */
+
+
+
+.parent {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif, monospace;
+}
+
+.terminal_sections {
+    display: flex;
+    background-color: rosybrown;
+    flex-direction: column;
+    overflow: auto;
+    height: 90vh;
+}
+
+.terminal_sections, .terminal_section {
+    background-color: orange;
+}
+
+.terminal_section {
+  transform: scale(var(--scale-factor));
+  transform-origin: 0% 0% 0px;
+}
+
+
+.command_entry_section {
+    /* transform: scale(var(--scale-factor));
+    transform-origin: 0% 0% 0px; */
+    background-color: aquamarine;
+    height: 10vh;
+    position: absolute;
+    width: 100vw;
+    margin: 0;
+}
+
+.command_entry {
+  transform: scale(var(--scale-factor));
+  transform-origin: 0% 0% 0px;
+}
+
+.command_entry_label {
+
+}
+
+/* .command_entry_label {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 100%;
+} */
